@@ -1,112 +1,113 @@
 /* styles/Login.module.css */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #d7aefb;
-  }
-  
-  .loginBox {
-    width: 360px;
-    padding: 40px;
-    position:absolute;
-    background: #fff;
-    /* text-align: center; */
-    border-radius: 10px;
-  }
-  
-  .logo {
-    width: 100px;
-    height: 100px;
-    background-color: gray;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-  }
-  
-  .loginBox h2 {
-    margin: 0 0 20px;
-    padding: 0;
-    color: #333;
-  }
-  
-  .inputBox {
-    position: relative;
-  }
-  
-  .inputBox input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #333;
-    outline: none;
-    background: transparent;
-  }
-  
-  .inputBox label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #333;
-    pointer-events: none;
-    transition: 0.5s;
-  }
-  
-  .inputBox input:focus ~ label,
-  .inputBox input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #d7aefb;
-    font-size: 12px;
-  }
-  
-  .button {
-    width: 100%;
-    background: #5e35b1;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    color: #fff;
-    border-radius: 5px;
-    transition: 0.5s;
-    text-align: center;
-  }
-  
-  .button:hover {
-    background: #4527a0;
-  }
-  
-  .linksb {
-    margin-top: 24px;
-  }
-  
-  .linksb a {
-    color: #201047;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  
-  .linksb a:hover {
-    color: #d7aefb;
-  }
+  display: flex;
+  height: 100vh;
+}
 
-  .links {
-    margin-top: 24px;
-  }
-  
-  .links a {
-    color: #201047;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  
-  .links a:hover {
-    color: #d7aefb;
-  }
-  
+/* .leftPane {
+  flex: 1;
+} */
+
+.rightPane {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px; 
+}
+
+.loginBox {
+  width: 440px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+
+.loginBox h2 {
+  margin: 0 0 24px;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputBox input {
+  width: 434px;
+  height: 26px;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 24px;
+  border: 3px solid #65558F;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.inputBox label {
+  position: absolute;
+  top: 0;
+  left: 51px;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #333;
+  pointer-events: none;
+  /* transition: 0.5s; */
+}
+
+/* .inputBox input:focus ~ label,
+.inputBox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #d7aefb;
+  font-size: 12px;
+} */
+
+.button {
+  width: 420px;
+  background: #5e35b1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.button:hover {
+  background: #4527a0;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.linksb, .links {
+  flex: 1;
+}
+
+.linksb a, .links a {
+  color: #201047;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.linksb a:hover, .links a:hover {
+  color: #d7aefb;
+}
