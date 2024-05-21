@@ -6,16 +6,18 @@ export default function () {
     <>
       <div className={styles.container}>
         <div className={styles.loginBox}>
-          <div className={styles.logo}></div>
+          <div className={styles.img}></div>
+          <img src="" alt="" />
           <h2>Insira seus dados para entrar</h2>
-          <form>
-            <div className={styles.inputBox}>
+            {/* <div className={styles.inputBox}>
+              <label className={styles.inputBoxlabel}>E-mail</label>
               <input type="email" required />
-              <label>E-mail</label>
+              
             </div>
             <div className={styles.inputBox}>
+              <label className={styles.inputBoxlabel}>Senha</label>
               <input type="password" required />
-              <label>Senha</label>
+             
             </div>
             <div className={styles.button}>Entrar</div>
           </form>
@@ -26,7 +28,7 @@ export default function () {
             <div className={styles.links}>
               <a href="#">Não tem conta? Crie uma agora</a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

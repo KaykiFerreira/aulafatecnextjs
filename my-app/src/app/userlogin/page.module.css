@@ -7,6 +7,10 @@
   padding-left: 500px; 
 }
 
+.containerlarge{
+  background-color: #65558F;
+}
+
 .loginBox {
   width: 440px;
   padding: 40px;
@@ -29,15 +33,15 @@
   text-align: center;
 }
 
-.inputBox {
+/* .inputBox {
   position: relative;
   
-}
+} */
 
-.inputBox input {
+/* .inputBox input {
   width: 434px;
   height: 26px;
-  padding: 8px 0;
+  padding: 8px 20px;
   left: 100px;
   font-size: 16px;
   color: #333;
@@ -48,17 +52,17 @@
   background: transparent;
 }
 
-.inputBox label {
-  position: absolute;
-  left: 51px;
-  padding: 8px 0;
+.inputBoxlabel {
+  /* position: absolute; */
+  
+  /* padding: 8px 20px;
   font-size: 16px;
   color: #333;
   pointer-events: none;
 }
 
 .button {
-  width: 420px;
+  width: 440px;
   background: #5e35b1;
   border: none;
   padding: 10px;
@@ -92,4 +96,4 @@
 
 .linksb a:hover, .links a:hover {
   color: #d7aefb;
-}
+} */ 
