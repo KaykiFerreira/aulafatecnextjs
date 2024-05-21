@@ -1,25 +1,15 @@
 /* styles/Login.module.css */
 .container {
   display: flex;
-  height: 100vh;
-}
-
-/* .leftPane {
-  flex: 1;
-} */
-
-.rightPane {
-  flex: 1;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 40px; 
+  height: 100vh;
+  padding-left: 500px; 
 }
 
 .loginBox {
   width: 440px;
   padding: 40px;
-  background: #fff;
   border-radius: 10px;
   position: relative;
 }
@@ -41,12 +31,14 @@
 
 .inputBox {
   position: relative;
+  
 }
 
 .inputBox input {
   width: 434px;
   height: 26px;
   padding: 8px 0;
+  left: 100px;
   font-size: 16px;
   color: #333;
   margin-bottom: 24px;
@@ -58,22 +50,12 @@
 
 .inputBox label {
   position: absolute;
-  top: 0;
   left: 51px;
   padding: 8px 0;
   font-size: 16px;
   color: #333;
   pointer-events: none;
-  /* transition: 0.5s; */
 }
-
-/* .inputBox input:focus ~ label,
-.inputBox input:valid ~ label {
-  top: -20px;
-  left: 0;
-  color: #d7aefb;
-  font-size: 12px;
-} */
 
 .button {
   width: 420px;
