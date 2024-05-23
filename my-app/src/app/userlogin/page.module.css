@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column; 
     width: 440px; 
-    margin: 12px 0 0;
+    margin: 0;
 }
 .loginBox h2 {
   margin: 0 0 12px;
@@ -53,6 +53,7 @@
 .inputbox label {
   font-size: 20px;
   color: #000;
+  font-weight:bold;
   pointer-events: none;
 }
 .button {
@@ -82,6 +83,7 @@
   color: #201047;
   text-decoration: none;
   font-size: 12px;
+  margin-right: 23px;
   font-weight: bold;
 }
 
@@ -89,11 +91,13 @@
   color: #201047;
   text-decoration: none;
   font-size: 12px;
+  margin-right: 25px;
 }
 .link{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
+  margin-left: 28px;
 }
 .link a{
   color: #201047;
@@ -103,13 +107,15 @@
 }
 .linksContainer {
   display: flex;
-  width: 100%;
+  justify-content: center;
   margin-top: 12px;
-  padding: 0 0 0 24px;
+  padding: 0;
+  margin: 12px;
 }
 
 .links, .link {
   flex: 1;
+  text-align: center;
 }
 /* 
 .containerlarge{

@@ -22,7 +22,9 @@ export default function () {
               <input type="password" required />
               </div>
               <div className={styles.button}>Entrar</div>
-              <div className={styles.linksContainer}>
+              
+          </div>
+          <div className={styles.linksContainer}>
           <div className={styles.link}>
           Esqueceu a senha?<a href="#"> Redefina</a>
             </div>
@@ -30,8 +32,6 @@ export default function () {
             Não tem conta?<a href="#"> Crie uma agora</a>
             </div>
         </div>
-          </div>
-         
             
           </div> 
           
