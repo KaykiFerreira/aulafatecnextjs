@@ -8,6 +8,10 @@
 .left{
   flex: 1;
   background-image: url(public/Image/layout.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  margin:  0;
 }
 .right {
   flex: 1;
@@ -21,17 +25,15 @@
 }
 .logo {
   width: 100px;
-  margin: 15px auto 24px auto;
+  margin: 150px auto 24px auto;
 }
 
 .loginBox h2 {
   margin: 0 0 12px;
   padding: 0;
   color: #000;
-  text-align: center;
   font-size: 24px;
   font-weight: bold;
-  justify-content: center;
   display: flex;
 }
 .inputContainer {
@@ -88,29 +90,29 @@
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-right: 23px;
   font-weight: bold;
-  text-decoration: none;
+  white-space: nowrap;
 }
 
 .links{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-right: 25px;
+  white-space: nowrap;
 }
 .link{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-left: 28px;
+  margin-right: 120px;
+  white-space: nowrap;
 }
 .link a{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
-  outline: none;
+  white-space: nowrap;
 }
 .linksContainer {
   display: flex;

@@ -8,6 +8,10 @@
 .left{
   flex: 1;
   background-image: url(public/Image/layout.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  margin:  0;
 }
 .right {
   flex: 1;
@@ -21,7 +25,7 @@
 }
 .logo {
   width: 100px;
-  margin: 75px auto 24px auto;
+  margin: 200px auto 24px auto;
 }
 .inputbox{
     display: flex;
@@ -81,19 +85,20 @@
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .links{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-right: 25px;
+  white-space: nowrap;
 }
 .link{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-left: 28px;
+  margin-right: 72px;
 }
 .link a{
   color: #201047;

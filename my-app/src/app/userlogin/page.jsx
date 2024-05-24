@@ -25,15 +25,16 @@ export default function Login() {
             <input type="password" required/>
           </div>
           <div className={styles.button}>Entrar</div>
-        </div>
-        <div className={styles.linksContainer}>
+          <div className={styles.linksContainer}>
           <div className={styles.link}>
             Esqueceu a senha?<a href="#"> Redefina</a>
           </div>
           <div className={styles.links}>
-            Não tem conta?<p><Link href={'/useregister'}> Criar Conta</Link></p>
+            Não tem conta?<a href="#"> Crie uma agora</a>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );

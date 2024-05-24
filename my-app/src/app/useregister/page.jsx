@@ -3,8 +3,6 @@ import Link from 'next/link';
 import styles from './page.module.css'
 import Image from 'next/image';
 
-
-
 export default function Login() {
 
   return (
@@ -47,8 +45,7 @@ export default function Login() {
         </div>
       </div>
       <div className={styles.button}>Entrar</div>
-    </div>
-    <div className={styles.linksContainer}>
+      <div className={styles.linksContainer}>
       <div className={styles.link}>
         Esqueceu a senha?<a href="#"> Redifina</a>
       </div>
@@ -56,6 +53,8 @@ export default function Login() {
         Já tem conta? <a href="#"> Faça Login</a>
       </div>
     </div>
+    </div>
+    
   </div>
 </div>
   );
