@@ -18,7 +18,8 @@ export default function Home() {
     </div>
     <p><Link href={'/userlogin'}>Login</Link></p>
     <p><Link href={'/products'}>Produtos</Link></p>
-    <p><Link href={'/useregister'}>Cadastro</Link></p>  
+    <p><Link href={'/useregister'}>Cadastro</Link></p> 
+    <p><Link href={'/home'}>Home</Link></p> 
     </main>
     
   );
